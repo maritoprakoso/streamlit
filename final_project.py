@@ -4,8 +4,8 @@ import plotly.express as px
 import streamlit as st
 
 # Define the file paths
-domestic_flights_file = Path("E:/punya dito/Belajar mandiri/DATA ANALYST/dqlab/bootcamp/Final project/penerbangan_domestik.xlsx")
-international_flights_file = Path("E:/punya dito/Belajar mandiri/DATA ANALYST/dqlab/bootcamp/Final project/penerbangan_internasional.xlsx")
+domestic_flights_file = Path(penerbangan_domestik.xlsx)
+international_flights_file = Path(penerbangan_internasional.xlsx)
 
 # Load the data
 domestik = pd.read_excel(domestic_flights_file)
